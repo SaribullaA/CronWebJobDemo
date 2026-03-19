@@ -29,7 +29,7 @@ public class CronJobService : BackgroundService
 
                 try
                 {
-                    _service.DoWork();
+                    _service.DoWork(); //To Call Your JobMethod
                 }
                 catch (Exception ex)
                 {
